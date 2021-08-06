@@ -1,0 +1,150 @@
+body{
+    background-blend-mode: hue;
+    background-image: linear-gradient(black, white, white, black);
+}
+
+.menu {
+    justify-content: space-between;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    flex-direction: row;
+    color:linen;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px red;
+  }
+
+.description p{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    flex-direction: row;
+    color:linen;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+.bodyimg img{
+    border: 5px solid darkslateblue;
+    border-radius: 40px;
+} 
+
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-right: 150px;
+    padding-left: 50px;
+}
+
+
+.body h3{
+    font-size: 50px;
+    font-style: italic;
+    text-shadow: 3px 4px lightskyblue;
+    text-decoration: underline;
+}
+
+.body img{
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.body h5{
+    font-size: 20px;
+    color:dodgerblue;
+}
+
+.body p{
+   font-size: 25px;
+   font-style: italic;
+   text-decoration: underline;
+}
+
+.body li{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.Otitle h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+    text-shadow: 2px 3px lightsteelblue;
+}
+
+.Otitle p{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 1px blueviolet;
+}
+
+
+.item img{
+    align-content: center;
+    display: flex;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 210px;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.item:hover img{
+    opacity: 0.33;
+} 
+
+.matter:hover img{
+    opacity: 0.33;
+} 
+
+a:link{
+    color: blanchedalmond;
+}
+
+a:visited{
+    color: cornflowerblue;
+}
+
+.item:hover{
+    transform: scale(1.2)
+}
+
+
+
+
